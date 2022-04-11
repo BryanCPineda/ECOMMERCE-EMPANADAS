@@ -4,41 +4,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ecommerce Empandas</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="../../assets/icon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="../css/index.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Ubuntu:wght@200&display=swap" rel="stylesheet">
+	<title>Ecommerce Empandas</title>
 </head>
 <body>
       <header id="header"> 
+				<a href="index.html" class="logoContainer">  <img class="logo" src="../../assets/logo empanadas.jpg" alt="imagen de empanadas"> </a>		
 				<nav>  
-					<a href="index.html">  <img style="width:15%" src="../../assets/imagen de empanadas.png" alt="imagen de empanadas"> </a>		
-							<ul>
-										<li> <a href="pais.html">  Pais </a>  </li>
-										<li> <a href="tipos.html">  Tipo </a> </li>
-										<li> <a href="coccion.html">  Coccion </a> </li>
+							<ul class="ul">
+										<select id="selectPais" onchange="location = this.value">
+												<option value="index.html">Paises</option>
+												<option value="./paisesHtml/colombia.html"><a href="pais.html"> Colombia </a></option>
+												<option value="./paisesHtml/argentina.html">Argentina</option>
+												<option value="./paisesHtml/bolivia.html">Bolivia</option>
+												<option value="./paisesHtml/chile.html">Chile</option>
+												<option value="./paisesHtml/ecuador.html">Ecuador</option>
+												<option value="./paisesHtml/mexico.html">Mexico</option>
+												<option value="./paisesHtml/peru.html">Peru</option>
+										</select>	
+										<select  id="selectTipo" onchange="location = this.value">
+											<option value="index.html">Tipo</option>
+											<option value="pais.html"><a href="pais.html"> Colombia </a></option>
+										</select>	
+										<select id="selectCoccion" onchange="location = this.value">
+											<option value="index.html">Coccion</option>
+											<option value="pais.html"><a href="pais.html"> Colombia </a></option>
+										</select>	
 							</ul>
+							<div class="contenedorBotones"> 
+										<button> Login </button>
+										<button> Registrarse </button>
+							</div>
 				</nav>
 
-				<div> 
-							<button> Login </button>
-							<button> Registrarse </button>
-				</div>
       </header>
 
       <h1> I LOVE EMPANADAS   </h1>
 
-			<a href="#h2MejoresEmpMundo"> ver cuales son las mejores empanadas del mundo </a>
+			<a href="#h2MejoresEmpMundo" class="mejoresEmpanadasMundo"> ver cuales son las mejores empanadas del mundo </a>
       <!-- <img style="width:15%" src="../../assets/imagen de empanadas.png" alt="imagen de empanadas"> -->
-      
-      <aside>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error odio optio voluptatibus quod nihil reprehenderit soluta. Culpa, animi. Molestiae iste incidunt, enim laudantium quam fugiat vero sit expedita repudiandae voluptatum.
-      </aside>
-
-
+    
+		<div class="contenedorInformacion">
 		<section>
 					<article>
-								<h2> Historias de las empanadas </h2>
+								<h2 class="subtitulo"> Historias de las empanadas </h2>
 								Lorem ipsum dolor sit amet consectetur adipisicing elit. Error odio optio voluptatibus quod nihil reprehenderit soluta. Culpa, animi. Molestiae iste incidunt, enim laudantium quam fugiat vero sit expedita repudiandae voluptatum.
 								Lorem ipsum dolor sit amet consectetur adipisicing elit. Error odio optio voluptatibus quod nihil reprehenderit soluta. Culpa, animi. Molestiae iste incidunt, enim laudantium quam fugiat vero sit expedita repudiandae voluptatum.
 					</article>
@@ -63,17 +82,30 @@
 							<article>
 							Lorem ipsum dolor sit amet consectetur adipisicing elit. Error odio optio voluptatibus quod nihil reprehenderit soluta. Culpa, animi. Molestiae iste incidunt, enim laudantium quam fugiat vero sit expedita repudiandae voluptatum.
 							Lorem ipsum dolor sit amet consectetur adipisicing elit. Error odio optio voluptatibus quod nihil reprehenderit soluta. Culpa, animi. Molestiae iste incidunt, enim laudantium quam fugiat vero sit expedita repudiandae voluptatum.
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Error odio optio voluptatibus quod nihil reprehenderit soluta. Culpa, animi. Molestiae iste incidunt, enim laudantium quam fugiat vero sit expedita repudiandae voluptatum.
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Error odio optio voluptatibus quod nihil reprehenderit soluta. Culpa, animi. Molestiae iste incidunt, enim laudantium quam fugiat vero sit expedita repudiandae voluptatum.
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Error odio optio voluptatibus quod nihil reprehenderit soluta. Culpa, animi. Molestiae iste incidunt, enim laudantium quam fugiat vero sit expedita repudiandae voluptatum.
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Error odio optio voluptatibus quod nihil reprehenderit soluta. Culpa, animi. Molestiae iste incidunt, enim laudantium quam fugiat vero sit expedita repudiandae voluptatum.
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Error odio optio voluptatibus quod nihil reprehenderit soluta. Culpa, animi. Molestiae iste incidunt, enim laudantium quam fugiat vero sit expedita repudiandae voluptatum.
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Error odio optio voluptatibus quod nihil reprehenderit soluta. Culpa, animi. Molestiae iste incidunt, enim laudantium quam fugiat vero sit expedita repudiandae voluptatum.
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Error odio optio voluptatibus quod nihil reprehenderit soluta. Culpa, animi. Molestiae iste incidunt, enim laudantium quam fugiat vero sit expedita repudiandae voluptatum.
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Error odio optio voluptatibus quod nihil reprehenderit soluta. Culpa, animi. Molestiae iste incidunt, enim laudantium quam fugiat vero sit expedita repudiandae voluptatum.	Lorem ipsum dolor sit amet consectetur adipisicing elit. Error odio optio voluptatibus quod nihil reprehenderit soluta. Culpa, animi. Molestiae iste incidunt, enim laudantium quam fugiat vero sit expedita repudiandae voluptatum.
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Error odio optio voluptatibus quod nihil reprehenderit soluta. Culpa, animi. Molestiae iste incidunt, enim laudantium quam fugiat vero sit expedita repudiandae voluptatum.
 						</article>
 		</section>
-
+	</div>	
 		<!-- <p>el footer es la parte de abajo de la pagina, donde van las redes sociales y el correo </p> -->
 		<footer>
-					<span> Contacto </span>
-					<address> mail@mail.com </address>
-					<address> calle falsa 123 </address>
-					<a href="https://www.facebook.com/search/top/?q=empanadas" target="blank"> Facebook </a>
-					<br>
-					<a href="#header"> UP </a>
+					<span class="contacto"> Contacto </span>
+					<div class="contenedorMail">
+						<address> mail@mail.com </address>
+						<address> calle falsa 123 </address>
+					</div>
+					<div class="contenedorContacto">
+						<a class="subrayadoLetraAzul" href="https://www.facebook.com/search/top/?q=empanadas" target="blank"> Facebook </a>
+						<br>
+						<a class="subrayadoLetraAzul" href="#header"> UP </a>
+					</div>					
 		</footer>
 
 </body>

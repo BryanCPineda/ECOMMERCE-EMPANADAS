@@ -1,0 +1,189 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+body{
+  background-color: rgb(246, 246, 171);
+  font-family: 'Nunito', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+nav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+}
+
+li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    text-align: center;
+    font-size: 6em;
+    color: rgb(144, 143, 53);
+    
+}
+
+footer{
+  background-color: rgb(200, 170, 34);
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  padding: 2em;
+  position: relative;
+  top: 8em;
+}
+
+select{
+    font-size: 0.6em;
+    background-color: rgb(246, 246, 171);
+    border: 2px solid rgb(235, 115, 3);
+    border-radius: 0px 10px 0px 10px;
+    cursor: pointer;
+}
+
+
+.contenedorBotones{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 5em;
+    height: 100%;
+    justify-content: space-evenly;
+}
+
+button{
+    padding: 0.6em;
+    font-size: 1.2em;
+    background-color: rgba(251, 103, 3, 0.281);
+    border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: brown;
+}
+
+section{
+    width: 95%;
+}
+
+
+#header{
+    display: flex;
+    height: 7em;
+}
+
+.logoContainer{
+    width: 20%;
+}
+
+.logo{
+    width: 15em;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    position: relative;
+    bottom: 4em;
+}
+
+.ul{
+  font-size: 2em;
+  position: relative;
+  left: 10em;
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.subTituloPais{
+  background-color: rgba(238, 248, 100, 0.445);
+  text-align: center;
+  font-size: 4em;
+  color: rgb(119, 18, 18);
+}
+
+.articuloHistoriaPais{
+    width: 90%;
+    text-align: justify;
+    font-size: 0.5em;
+
+}
+
+.sectionContenedorPais{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.8em;
+}
+
+.contenedorContacto{
+    position: relative;
+    right: 8em;
+}
+.contenedorMail{
+    position: relative;
+    right: 3rem;
+}
+
+.contacto{
+    font-size: 2em;
+    background-color: rgb(233, 233, 88);
+    padding: 0.2em;
+    padding: 0em 1em 0em 1em;
+    border-radius: 10px 0px 10px 0px;
+    cursor: pointer;
+}
+
+.contacto:hover{
+    font-size: 2.2em;
+    padding: 0.2em 1.2em 0.2em 1.2em;
+    color: rgb(231, 117, 10);
+}
+
+.subrayadoLetraAzul{
+    color: blue;
+    font-style: oblique;
+    text-decoration: underline;
+}
+
+.mejoresEmpanadasMundo{
+    color: blue;
+    text-decoration: underline;
+    position: relative;
+    left: 10px;
+    font-size: 0.8em;
+
+}
+
+.contenedorInformacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    height: 600px;
+    background: linear-gradient(rgb(246, 246, 171),rgba(246, 246, 171, 0.801), rgba(246, 246, 171, 0.575), rgba(246, 246, 171, 0.849)), url("../../assets/fondo\ de\ empanadas.jpg");
+}
+
+.contenedorInformacion h2{
+    margin: 10px;
+    font-size: 1.8em;
+}
+
+.videoEmpanadas{
+    text-align: center;
+    padding-top: 6em;
+    
+}
+
+.contenedorMapArgentina{
+  text-align: center;
+  padding-top: 6em;
+}
