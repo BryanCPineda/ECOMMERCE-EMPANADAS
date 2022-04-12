@@ -184,6 +184,46 @@ section{
 }
 
 .contenedorMapArgentina{
-  text-align: center;
-  padding-top: 6em;
+    text-align: center;
+    padding-top: 6em;
+}
+
+.formulario{
+    width: 40%;
+    height: 30em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    left: 26em;
+    top: 1em;
+}
+
+.tituloForm{
+    font-size: 3.5em;
+    padding: 0.3em;
+    color: brown;
+    font-weight: 790;
+    text-decoration: underline;
+}
+
+.contenedorForm{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3em;
+}
+
+.contenedorTextArea{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+}
+
+.textArea{
+    min-width: 400px;
+    min-height: 200px;
+    max-width: 400px;
+    max-height: 200px;
 }
